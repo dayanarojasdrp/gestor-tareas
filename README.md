@@ -24,7 +24,7 @@ gestor-tareas/
 ## Installation
 Clone the repository and navigate into the project folder:
 ```bash
-git clone https://github.com/dayanarojasdrp/task-manager.git
+git clone https://github.com/dayanarojasdrp/gestor-tareas.git
 cd gestor-tareas
 ```
 
