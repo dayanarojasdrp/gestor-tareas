@@ -14,11 +14,18 @@ This project demonstrates core programming concepts, including object-oriented d
 ## Project Structure
 ```
 gestor-tareas/
- ├── main.py          # Entry point with interactive menu
- ├── tarea.py         # Task class definition
- ├── gestor.py        # Task manager class
- ├── tareas.json      # Auto-generated file storing tasks
- └── README.md        # Project documentation
+ ├── main.py                  # Entry point
+ ├── task_manager/
+ │   ├── __init__.py          # Package exports
+ │   ├── task.py              # Task model
+ │   ├── manager.py           # Task manager logic
+ │   ├── storage.py           # JSON persistence
+ │   └── cli.py               # Interactive terminal menu
+ ├── tests/
+ │   ├── test_task.py         # Task model tests
+ │   └── test_manager.py      # Task manager tests
+ ├── tareas.example.json      # Example data shape
+ └── README.md                # Project documentation
 ```
 
 ## Installation
